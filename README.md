@@ -39,7 +39,7 @@ PID controller output is made up of the sum of the proportional, integral, and d
 PID control provides more control action sooner than what is possible with P or PI control. This reduces the effect of a disturbance, and shortens the time it takes for the level to return to its set point.
 
 <figure>
- <img src="./README_images/PID-Controller.png" width="380" height="166" alt="PID" align="middle" />
+ <img src="./README_images/PID-Controller.png" width="530" height="280" alt="PID" align="middle" />
 </figure>
 
 ---
