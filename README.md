@@ -13,7 +13,7 @@ The adjustable setting for proportional control is called the Controller Gain (K
 If the controller gain is set too high the control loop will begin oscillating and become unstable. If the controller gain is set too low, it will not respond adequately to disturbances or set point changes.
 
 <figure>
- <img src="./README_images/P-Action.jpg" width="765" alt="Combined Image" />
+ <img src="./README_images/P-Action.jpg" width="380" height="410" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
@@ -25,7 +25,7 @@ Given enough time, integral action will drive the controller output far enough t
 If the error is large, the integral mode will increment/decrement the controller output fast, if the error is small, the changes will be slower.
 
 <figure>
- <img src="./README_images/I-Action.jpg" width="765" alt="Combined Image" />
+ <img src="./README_images/I-Action.jpg" width="380" height="410" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
@@ -37,7 +37,7 @@ The derivative control mode produces an output based on the rate of change of th
 If there is no change in the error, the derivative action is zero.
 
 <figure>
- <img src="./README_images/D-Action.jpg" width="765" alt="Combined Image" />
+ <img src="./README_images/D-Action.jpg" width="380" height="410" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
@@ -48,7 +48,7 @@ PID controller output is made up of the sum of the proportional, integral, and d
 PID control provides more control action sooner than what is possible with P or PI control. This reduces the effect of a disturbance, and shortens the time it takes for the level to return to its set point.
 
 <figure>
- <img src="./README_images/PID-Controller.png" width="765" alt="Combined Image" />
+ <img src="./README_images/PID-Controller.png" width="380" height="410" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
