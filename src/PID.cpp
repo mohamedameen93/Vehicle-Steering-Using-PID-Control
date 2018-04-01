@@ -2,8 +2,6 @@
 #include <algorithm>
 using namespace std;
 
-#define WINDOW_SIZE 20
-
 PID::PID() {}
 
 PID::~PID() {}

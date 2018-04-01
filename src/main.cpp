@@ -33,18 +33,10 @@ int main()
   uWS::Hub h;
 
   PID pid;
-  // TODO: Initialize the pid variable.
-  // Only proportional.
-  // pid.Init(1, 0.0, 0.0);
-
-  // Only integral.
-  // pid.Init(0.0, 1.0, 0.0);
-
-  // Only differential.
-  // pid.Init(0.0, 0.0, 1.0);
-
-  // Final parameters.
-  pid.Init(0.15, 0.0, 2.5);
+  
+  // Final parameters (Manually Tuned).
+  pid.Init(0.15, 0.0, 2.5); // ki = 0.0 --> No need to compensate for systematic bias, because it's not coded in the simulator.
+  
   h.onMessage([&pid](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
     // "42" at the start of the message means there's a websocket message event.
     // The 4 signifies a websocket message
