@@ -53,14 +53,3 @@ double PID::TotalError()
   return ((p_error * Kp) + (i_error * Ki) + (d_error * Kd));
 }
 
-double PID::AverageError() {
-  return errorSum/counter;
-}
-
-double PID::MinError() {
-  return minError;
-}
-
-double PID::MaxError() {
-  return maxError;
-}
